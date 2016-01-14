@@ -222,3 +222,34 @@ section img {
 	width: 95%;
 	margin: 20px auto;
 }
+
+.fixed-box {
+	width: 200px;
+	height: 300px;
+	background-color: #ecf0f1;
+	position: fixed;
+	top: 400px;
+	right: 15%;
+	border-bottom: 10px solid #7f8c8d;
+}
+
+.fixed-box h6 {
+	color: #2c3e50;
+	padding-left: 10px;
+	font-size: small;
+	margin-bottom: 15px;
+	border-bottom: 3px solid #2c3e50
+}
+
+.fixed-box p {
+	color: #7f8c8d;
+	padding-left: 30px;
+	font-size: small;
+}
+
+
+
+
+
+
+
