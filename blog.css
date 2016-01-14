@@ -10,6 +10,33 @@ p {
 	font-size: small;
 	margin-top: 0;
 }
+ol li {
+	font-family: times;
+	font-size: small;
+	margin-top: 0;
+
+}
+
+section h4 {
+	border-bottom: solid thin #bdc3c7;
+}
+
+table, th, tr, td {
+	border-collapse: collapse;
+	border: 1px solid #bdc3c7;
+}
+
+td {
+	padding: 5px;
+}
+
+td p {
+	font-size: x-small;
+}
+
+table {
+	display: block;
+}
 
 body {
 	padding:0;
@@ -25,6 +52,11 @@ section {
 
 section p {
 	margin-top: 25px;
+}
+
+section img {
+	margin-top: 15px;
+	margin-bottom: 15px;
 }
 
 .main-container {
@@ -88,38 +120,19 @@ section p {
 	background-color: #ecf0f1;
 }
 
-.introduction-container {
+div.non-article-container {
 	padding-top: 50px;
 	margin-left: 50px;
 	margin-right: 50px;
+	height: auto;
 }
 
-.introduction-container h3 {
+.non-article-container h3 {
 	margin-left: -15px;
 	margin-bottom: 25px;
 
 }
 
-section h4 {
-	border-bottom: solid thin #bdc3c7;
-}
-
-table, th, tr, td {
-	border-collapse: collapse;
-	border: 1px solid #bdc3c7;
-}
-
-td {
-	padding: 5px;
-}
-
-td p {
-	font-size: x-small;
-}
-
-table {
-	display: block;
-}
 
 .t-head {
 	background-color: #95a5a6;
@@ -143,10 +156,69 @@ section img {
 	margin: 5px auto;
 }
 
+.byline {
+	color: #34495e;
 
+}
 
+.labels {
+	float: left;
+	width:25%;
+}
 
+.labels p {
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: 10px;
+}
 
+.inputs {
+	float:right;
+	display: block;
+	width: 75%;
+}
+.formz {
+	width:100%;
+	margin-bottom: 5px;
+}
 
+.decorative {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 10px;
+	width: 95%;
+	height: 150px;
+	border-top: thin solid #bdc3c7;
+	border-bottom: thin solid #bdc3c7;
+}
+.decorative-text {
+	position: relative;
+	z-index: 1;
+	background-color: #ecf0f1;
+	color: #bdc3c7;
+	top: 0;
+	left: 0;
 
+}
+#annoy {
+	top:-62px;
+	left: -350px;
+	height: 25px;
+}
 
+.text-area {
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 25px;
+
+}
+
+.big-button {
+	background-color: red;
+	color:white;
+	width: 95%;
+	margin: 20px auto;
+}
