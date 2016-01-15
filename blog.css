@@ -202,11 +202,6 @@ section img {
 	left: 0;
 
 }
-#annoy {
-	top:-62px;
-	left: -350px;
-	height: 25px;
-}
 
 .text-area {
 	display:flex;
@@ -219,7 +214,7 @@ section img {
 .big-button {
 	background-color: red;
 	color:white;
-	width: 95%;
+	width: 100%;
 	margin: 20px auto;
 }
 
@@ -228,8 +223,8 @@ section img {
 	height: 300px;
 	background-color: #ecf0f1;
 	position: fixed;
-	top: 400px;
-	right: 15%;
+	top: 330px;
+	right: 100px;
 	border-bottom: 10px solid #7f8c8d;
 }
 
